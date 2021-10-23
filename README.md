@@ -93,3 +93,32 @@ If you are looking to make your first contribution. This repository is the right
 + Something that's clearly an attempt to simply +1 your pull request count for October.
 
 + Last but not least, one pull request to fix a typo is fine, but 5 pull requests to remove a stray whitespace is not.
+
+### What is Open Source
+Open source refers to a software program or platform with source code that is readily accessible and which can be modified or enhanced by anyone.
+
+Open source access grants users of an application permission to fix broken links, enhance the design, or improve the original code.
+
+#### Pros of Open source
+-Initial cost
+-Reliability
+-Longevity
+-Security
+-Flexibility
+
+#### Cons of Open source
+-Long-term cost
+-Support
+-Orphan software
+-Security
+-Usability
+
+Some Open Source organistaions
+-Blender
+-Mozila Firefox
+-VLV Media player
+-Python Django
+
+Some Open source organisations
+-Hacktoberfest
+-GSOC
