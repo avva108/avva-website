@@ -128,7 +128,6 @@ Open-source software (OSS) is computer software that is released under a license
 Open-source software may be developed in a collaborative public manner. Open-source software is a prominent example of open collaboration, meaning any capable user is able to participate online in development, making the number of possible contributors indefinite. 
 The ability to examine the code facilitates public trust in the software.
 
-
 Open-source software development can bring in diverse perspectives beyond those of a single company. 
 A 2008 report by the Standish Group stated that adoption of open-source software models has resulted in savings of about $60 billion per year for consumers.
 
