@@ -100,25 +100,30 @@ Open source refers to a software program or platform with source code that is re
 Open source access grants users of an application permission to fix broken links, enhance the design, or improve the original code.
 
 #### Pros of Open source
--Initial cost
--Reliability
--Longevity
--Security
--Flexibility
+- Initial cost
+- Reliability
+- Longevity
+- Security
+- Flexibility
 
 #### Cons of Open source
--Long-term cost
--Support
--Orphan software
--Security
--Usability
+- Long-term cost
+- Support
+- Orphan software
+- Security
+- Usability
 
 Some Open Source organistaions
--Blender
--Mozila Firefox
--VLV Media player
--Python Django
+- Blender
+- Mozila Firefox
+- VLV Media player
+- Python Django
 
 Some Open source organisations
--Hacktoberfest
--GSOC
+- Hacktoberfest
+- GSOC
+
+### More about Open source
+Open-source software (OSS) is computer software that is released under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software and its source code to anyone and for any purpose. 
+Open-source software may be developed in a collaborative public manner. Open-source software is a prominent example of open collaboration, meaning any capable user is able to participate online in development, making the number of possible contributors indefinite. 
+The ability to examine the code facilitates public trust in the software.
