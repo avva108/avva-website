@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d8d8d6;
+    /* background-color: #143; */
+}
+.container{
+    width: 400px;
+    height: 400px;
+    /* border: 2px solid black; */
+    position: absolute; /* to set position*/
+    transform: translate(-50%,-50%); /*container ko center me le jane ke liye*/
+    left: 50%; /*container ko center me le jane ke liye*/
+    top: 50%; /*container ko center me le jane ke liye*/
+    border-radius: 50%;
+     box-shadow: 15px 15px 30px #61615b,  /*to give shadow */
+                -15px -15px 30px #d8d8d6;
+            
+}
+.clock{
+    width: 325px;
+    height: 325px;
+    /* border: 2px solid black; */
+    position: absolute;
+    transform: translate(-50%,-50%); /*container ko center me le jane ke liye*/
+    left: 50%; /*container ko center me le jane ke liye*/
+    top: 50%; /*container ko center me le jane ke liye*/
+    background-image: url("akash.png");
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow:inset 15px 15px 30px #61615b,
+               inset -15px -15px 30px #d8d8d6; /*inset ko use kiya h jisse shadow andar ki side dikhe*/
+    display: flex;
+    justify-content: center;
+    align-items: center; /*content ko clock block ke bilkul beech me la dega*/
+}
+.hr{
+    width: 150px;
+    height: 150px;
+}
+.min{
+    width: 200px;
+    height: 250px;
+}
+.sec{
+    width: 250px;
+    height: 250px;
+}
+.hr, .min, .sec{
+    /* border: 1px solid black; */
+    position: absolute;/*jo hr,min,sec ke block honge vo upr neeche se htke sath me align ho jayenge*/
+    display: flex;
+    justify-content: center; /*ab ye blocks ko hm centre me lane ke liye clock ko justify center krenge*/
+} 
+/* ab clock ke center ko bnane ka code  */
+.clock::before{
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.hr::before{
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 75px;
+    background-color: black;
+    z-index: 10;/*cheejo ko upr ya neeche shift krne ke kam aata h*/
+    border-radius: 50%;
+}
+.min::before{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 125px;
+    background-color: black;
+    z-index: 11;/*cheejo ko upr ya neeche shift krne ke kam aata h*/
+    border-radius: 50%;
+
+}
+.sec::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 150px;
+    background-color: red;
+    z-index: 12;/*cheejo ko upr ya neeche shift krne ke kam aata h*/
+    border-radius: 50%;
+
+}
