@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="player.js"></script>
+</head>
+<link rel="stylesheet" href="player.css">
+<body>
+    <div id="wrapper">
+        <div id="player">
+            <audio src="music/01 Paawan Hai Is Desh Ki Maati.mp3" id="music_player">
+                <source src="music/01 Paawan Hai Is Desh Ki Maati.mp3">
+            </audio>
+            <input type="image" src="image/play.png" onclick="play_aud()" id="play_button">
+            <input type="image" src="image/pause.png" onclick="pause_aud()" id="play_button">
+            <input type="image" src="image/stop.png" onclick="stop_aud()" id="play_button">
+            <img src="image/volume.jpg" id="vol_img" alt="">
+            <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
+        </div>
+    </div>
+</body>
+
+</html>
