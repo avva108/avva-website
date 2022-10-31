@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>task 10</title>
+</head>
+<style>
+	.container {
+		margin-top: 50px;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+	}
+	#header {
+		font-size:30px;
+	}
+	#buttons{
+		margin: 20px;
+		display:flex;
+		flex-direction:row;
+	}
+	.btn{
+		margin: 5px;
+		padding: 15px;
+		width: 100px;
+		text-align: center;
+		outline-width: 0;
+		border: 1px solid black;
+	}
+	.btn:hover{
+		cursor:pointer;
+		background-color:lightgreen;
+	}
+
+</style>
+<body>
+<div class = "container">
+	<div id = "header">This is the sample of a header</div>
+	<div id = "buttons">
+		<div>
+			<button class = "btn" id = "bold">Bold</button>
+		</div>
+		<div>
+			<button class = "btn" id = "italic">italic</button>
+		</div>
+		<div>
+			<button class = "btn" id = "underline">underline</button>
+		</div>
+	</div>
+</div>
+<script src = "../script/task10.js"></script>
+
+</body>
+</html>
